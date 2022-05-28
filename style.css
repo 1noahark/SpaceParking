@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('image/bgjpg.jpg');
+    background-size: auto;
+}
+
+#title{
+    color: white;
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20%;
+    
+                                                
+}
+
+#start{
+    font-family: 'ArcadeClassic', sans-serif;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#player{
+    height: 16vh;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: rocket-animation;
+    animation-duration: 5s;
+    
+    
+}
+
+@keyframes rocket-animation{
+    0%{
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    50%{
+        top: 86%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    100%{
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.credit{
+    color: white;
+    font-family: arial;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 2;
+    font-size: 12px;
+}
+
+/*  Game Starts */
+
+#one{
+    border:2px solid yellow;
+    width: 10vh;
+    height: 15vh; 
+
+
+}
+#two{
+    border:2px solid yellow;
+    width: 10vh;
+    height: 15vh; 
+
+
+}
+#three{
+    border:2px solid yellow;
+    width: 10vh;
+    height: 15vh; 
+
+}
+#one:hover{
+    background-color: rgba(255, 255, 7, 0.199);
+}
+#two:hover{
+    background-color: rgba(255, 255, 7, 0.199);
+}
+#three:hover{
+    background-color: rgba(255, 255, 7, 0.199);
+}
+
+#parkinglot{
+    display: flex;
+    justify-content: space-evenly;
+    visibility: hidden;
+    
+    
+}
+
+#eholder{
+    background-color: rgba(74, 72, 72, 0.549);
+    width: 20vh;
+    height: 7vh;
+    border-radius: 10px;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    
+    
+}
+#eq{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 15px;
+    font-family: Arial;
+}
+
+#parkinglot p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#nextlevel{
+    background-color: rgb(25, 40, 14);
+    width: 45vh;
+    height: 28vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgb(1, 146, 1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+
+
+}
+
+.nextlevel{
+    color: rgb(1, 146, 1);
+    font-family: arial;
+    text-align: center;
+    padding-top: 95px;
+}
+
+#Gameover{
+    background-color: rgb(25, 40, 14);
+    width: 45vh;
+    height: 28vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    visibility: hidden;
+
+}
+
+#gameover{
+    color: red;
+    font-family: arial;
+    text-align: center;
+    padding-top: 95px;
+}
+
+@keyframes disapear{
+    0%{
+        opacity: 100%;
+    }
+
+    50%{
+        opacity: 20%;
+    }
+
+    80%{
+        opacity: 10%;
+    }
+
+    100%{
+        opacity: 0%;
+        visibility: hidden;
+        
+    }
+}
+
