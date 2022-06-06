@@ -7,9 +7,9 @@ You need to click the right answer to go to the next level/park the rocket
 
 # Credit
 Developer: Noah Eyob
----
+<br>
 Game Idea: Ebsa Daniel
 
 
-I know this game is bad but accept it 🩹
+I know this game is bad but accept it.
 
