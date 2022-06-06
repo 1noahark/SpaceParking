@@ -6,8 +6,10 @@ On version 0.01.
 You need to click the right answer to go to the next level/park the rocket
 
 # Credit
-Game Idea: Ebsa Daniel
 Developer: Noah Eyob
+---
+Game Idea: Ebsa Daniel
+
 
 I know this game is bad but accept it 🩹
 
